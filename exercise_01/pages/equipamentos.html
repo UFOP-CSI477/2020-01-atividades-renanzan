@@ -4,12 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tecnosoluções - Equipamentos</title>
+    <title>TechSoluções - Equipamentos</title>
+    <link rel="shortcut icon" href="../assets/logo.svg"/>
 </head>
 <body>
-    <h1>Tecnosoluções</h1>
+    <h1>TechSoluções</h1>
     <h2>Equipamentos</h2>
 
-    <a href="home.html">Voltar</a><br />
+    <a href="home.html">Voltar</a><br /><br /><br />
+
+    <form>
+        <h3>Informações do Equipamento</h3>
+        
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" />
+        <br /><br />
+
+        <label for="qtd">Quantidade</label>
+        <input type="number" id="qtd" />
+        <br /><br />
+
+        <hr>
+
+        <h3>Informações do Fornecedor</h3>
+        
+        <label for="nome">Nome</label>
+        <input type="text" id="nome">
+        <br /><br />
+
+        <label>Valor unitário</label>
+        <input type="number" min="0" />
+        <br /><br />
+
+        <input type="checkbox" id="email" />
+        <label for="email">Email</label>
+        <input type="text" />
+        <br /><br />
+
+        <input type="checkbox" id="site" />
+        <label for="site">Site</label>
+        <input type="text" />
+        <br /><br />
+
+        <br /><br />
+        <input type="submit" value="Cadastrar Solicitação" />
+    </form>
 </body>
 </html>

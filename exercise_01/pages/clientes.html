@@ -4,49 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tecnosoluções - Cadastrar Cliente</title>
+    <title>TechSoluções - Cadastrar Cliente</title>
+    <link rel="shortcut icon" href="../assets/logo.svg"/>
 </head>
 <body>
-    <h1>Tecnosoluções</h1>
+    <h1>TechSoluções</h1>
     <h2>Cadastrar Cliente</h2>
     <a href="home.html">Voltar</a><br /><br /><br />
 
-    <h3>Informações Pessoais</h3>
-    <label for="nome-completo">Nome completo</label>
-    <input id="nome-completo" type="text" placeholder="Nome completo" />
-    <br /><br />
+    <form>
+        <h3>Informações Pessoais</h3>
+        <label for="nome-completo">Nome completo</label>
+        <input id="nome-completo" type="text" placeholder="Nome completo" />
+        <br /><br />
 
-    <label for="data-nascimento">Data de nascimento</label>
-    <input id="data-nascimento" type="date" />
-    <br /><br />
+        <label for="data-nascimento">Data de nascimento</label>
+        <input id="data-nascimento" type="date" />
+        <br /><br />
 
-    <label>Sexo</label><br />
-    <label for="masculino">Masculino</label>
-    <input type="radio" name="genero" id="masculino" checked />
-    <label for="feminino">Feminino</label>
-    <input type="radio" name="genero" id="feminino" />
-    <label for="outro">Outro</label>
-    <input type="radio" name="genero" id="outro" /><br /><br />
+        <label>Sexo</label><br />
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" checked />
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino" />
+        <label for="outro">Outro</label>
+        <input type="radio" name="genero" id="outro" /><br /><br />
 
-    <hr />
+        <hr />
 
-    <h3>Endereço</h3>
-    <label for="estado">Estado</label>
-    <input id="estado" type="text" placeholder="Estado" />
-    <br /><br />
+        <h3>Endereço</h3>
+        <label for="estado">Estado</label>
+        <input id="estado" type="text" placeholder="Estado" />
+        <br /><br />
 
-    <label for="cidade">Cidade</label>
-    <input id="cidade" type="text" placeholder="Cidade" />
-    <br /><br />
+        <label for="cidade">Cidade</label>
+        <input id="cidade" type="text" placeholder="Cidade" />
+        <br /><br />
 
-    <label for="endereco">Endereço</label>
-    <input id="endereco" type="text" placeholder="Endereço" />
-    <br /><br />
+        <label for="endereco">Endereço</label>
+        <input id="endereco" type="text" placeholder="Endereço" />
+        <br /><br />
 
-    <label for="celular">Celular</label>
-    <input id="celular" type="text" placeholder="Número do celular" />
-    <br /><br />
+        <label for="numero">Número</label>
+        <input id="numero" type="number" min="0" placeholder="Número" />
+        <br /><br />
 
-    <input type="button" value="Cadastrar Cliente" />
+        <label for="complemento">Complemento</label>
+        <input id="complemento" type="text" placeholder="Complemento" />
+        <br /><br />
+
+        <hr />
+
+        <h3>Informações de contato</h3>
+
+        <label for="celular">Celular</label>
+        <input id="celular" type="text" placeholder="Número do celular" />
+        <br /><br />
+
+        <label for="email">Email</label>
+        <input id="email" type="text" placeholder="Email" />
+        <br /><br />
+
+        <br /><br />
+        <input type="submit" value="Cadastrar Cliente" />
+    </form>
 </body>
 </html>
